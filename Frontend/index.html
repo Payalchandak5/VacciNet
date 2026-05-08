@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VacciNet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+<!-- FORM SCREEN (CARD STYLE) -->
+<div id="formSection" class="container">
+    <h1>💉 VacciNet</h1>
+
+    <form id="form">
+        <label>Child Name:</label>
+        <input type="text" id="name" placeholder="Enter Child Name" required>
+
+        <label>Birth Date:</label>
+        <input type="date" id="birthDate" required>
+
+        <label>Pincode:</label>
+        <input type="text" id="pincode" placeholder="Enter your pincode" required>
+
+        <button type="submit">Get Started</button>
+    </form>
+</div>
+
+<!-- FULL SCREEN DASHBOARD -->
+<div id="dashboard" style="display:none;"></div>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</body>
+</html>
